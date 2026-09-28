@@ -56,7 +56,7 @@ export default function Footer() {
                 <Instagram className="w-5 h-5" />
               </a>
               <a
-                href="https://wa.me/6583889596?text=Hi%20Kevin,%20I%20found%20your%20website%20and%20would%20like%20a%20quotation%20for%20my%20renovation%20project."
+                href="https://wa.me/6593485255?text=Hi%20Kevin,%20I%20found%20your%20website%20and%20would%20like%20a%20quotation%20for%20my%20renovation%20project."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-lg bg-charcoal-800 flex items-center justify-center hover:bg-[#25D366] transition-colors"
@@ -106,7 +106,7 @@ export default function Footer() {
             <ul className="space-y-4">
               <li>
                 <a
-                  href="https://wa.me/6583889596?text=Hi%20Kevin,%20I%20found%20your%20website%20and%20would%20like%20a%20quotation%20for%20my%20renovation%20project."
+                  href="https://wa.me/6593485255?text=Hi%20Kevin,%20I%20found%20your%20website%20and%20would%20like%20a%20quotation%20for%20my%20renovation%20project."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-3 text-charcoal-300 hover:text-white transition-colors text-sm"
@@ -123,7 +123,7 @@ export default function Footer() {
             </ul>
             <div className="mt-6">
               <a
-                href="https://wa.me/6583889596?text=Hi%20Kevin,%20I%20found%20your%20website%20and%20would%20like%20a%20quotation%20for%20my%20renovation%20project."
+                href="https://wa.me/6593485255?text=Hi%20Kevin,%20I%20found%20your%20website%20and%20would%20like%20a%20quotation%20for%20my%20renovation%20project."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-primary text-sm"
