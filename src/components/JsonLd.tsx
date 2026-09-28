@@ -15,7 +15,7 @@ export function JsonLd({ data }: JsonLdProps) {
 const businessInfo = {
   '@context': 'https://schema.org',
   '@type': 'LocalBusiness',
-  '@id': 'https://singaporecarpentry.com/#business',
+  '@id': 'https://singaporecarpentry.com/#/business',
   name: 'Singapore Carpentry',
   image: 'https://images.pexels.com/photos/19345424/pexels-photo-19345424.jpeg',
   telephone: '+6593485255',
@@ -46,12 +46,12 @@ const organizationInfo = {
 const websiteInfo = {
   '@context': 'https://schema.org',
   '@type': 'WebSite',
-  '@id': 'https://singaporecarpentry.com/#website',
+  '@id': 'https://singaporecarpentry.com/#/website',
   url: 'https://singaporecarpentry.com',
   name: 'Singapore Carpentry',
   description: 'Custom carpentry and electrical services for Singapore homes',
   publisher: {
-    '@id': 'https://singaporecarpentry.com/#organization',
+    '@id': 'https://singaporecarpentry.com/#/organization',
   },
 };
 
@@ -79,9 +79,9 @@ export function ServiceJsonLd({ name, description, url }: ServiceJsonLdProps) {
     '@type': 'Service',
     name,
     description,
-    url: `https://singaporecarpentry.com${url}`,
+    url: `https://singaporecarpentry.com/#${url}`,
     provider: {
-      '@id': 'https://singaporecarpentry.com/#organization',
+      '@id': 'https://singaporecarpentry.com/#/organization',
     },
     areaServed: {
       '@type': 'Country',
@@ -104,13 +104,13 @@ export function BreadcrumbJsonLd({ items }: BreadcrumbJsonLdProps) {
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://singaporecarpentry.com/',
+        item: 'https://singaporecarpentry.com/#/',
       },
       ...items.map((item, index) => ({
         '@type': 'ListItem',
         position: index + 2,
         name: item.name,
-        item: `https://singaporecarpentry.com${item.url}`,
+        item: `https://singaporecarpentry.com/#${item.url}`,
       })),
     ],
   };

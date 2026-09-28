@@ -11,7 +11,7 @@ const defaultImage = 'https://images.pexels.com/photos/19345424/pexels-photo-193
 
 export default function SEO({ title, description, path = '', image = defaultImage }: SEOProps) {
   const siteUrl = 'https://singaporecarpentry.com';
-  const canonicalUrl = `${siteUrl}${path}`;
+  const canonicalUrl = `${siteUrl}/#${path}`;
 
   return (
     <Helmet>
