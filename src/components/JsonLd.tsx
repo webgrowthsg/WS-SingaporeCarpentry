@@ -18,7 +18,7 @@ const businessInfo = {
   '@id': 'https://singaporecarpentry.com/#business',
   name: 'Singapore Carpentry',
   image: 'https://images.pexels.com/photos/19345424/pexels-photo-19345424.jpeg',
-  telephone: '+6583889596',
+  telephone: '+6593485255',
   address: {
     '@type': 'PostalAddress',
     addressLocality: 'Singapore',
@@ -38,7 +38,7 @@ const organizationInfo = {
   logo: 'https://singaporecarpentry.com/vite.svg',
   contactPoint: {
     '@type': 'ContactPoint',
-    telephone: '+6583889596',
+    telephone: '+6593485255',
     contactType: 'customer service',
   },
 };
