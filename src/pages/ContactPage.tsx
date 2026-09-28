@@ -74,7 +74,7 @@ export default function ContactPage() {
 
               <div className="space-y-6 mb-12">
                 <a
-                  href="https://wa.me/6583889596?text=Hi,%20I%20found%20your%20website%20and%20would%20like%20a%20quotation%20for%20my%20renovation%20project."
+                  href="https://wa.me/6593485255?text=Hi,%20I%20found%20your%20website%20and%20would%20like%20a%20quotation%20for%20my%20renovation%20project."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-4 p-4 bg-green-50 rounded-xl hover:bg-green-100 transition-colors group"
@@ -91,7 +91,7 @@ export default function ContactPage() {
                 </a>
 
                 <a
-                  href="https://wa.me/6583889596?text=Hi,%20I%20found%20your%20website%20and%20would%20like%20a%20quotation%20for%20my%20renovation%20project."
+                  href="https://wa.me/6593485255?text=Hi,%20I%20found%20your%20website%20and%20would%20like%20a%20quotation%20for%20my%20renovation%20project."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-4 p-4 bg-warm-50 rounded-xl hover:bg-warm-100 transition-colors group"
@@ -258,7 +258,7 @@ export default function ContactPage() {
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4">
               <a
-                href="https://wa.me/6583889596?text=Hi,%20I%20found%20your%20website%20and%20would%20like%20a%20quotation%20for%20my%20renovation%20project."
+                href="https://wa.me/6593485255?text=Hi,%20I%20found%20your%20website%20and%20would%20like%20a%20quotation%20for%20my%20renovation%20project."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-primary"
@@ -267,7 +267,7 @@ export default function ContactPage() {
                 Contact Us
               </a>
               <a
-                href="https://wa.me/6583889596?text=Hi,%20I%20found%20your%20website%20and%20would%20like%20a%20quotation%20for%20my%20renovation%20project."
+                href="https://wa.me/6593485255?text=Hi,%20I%20found%20your%20website%20and%20would%20like%20a%20quotation%20for%20my%20renovation%20project."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-secondary"
