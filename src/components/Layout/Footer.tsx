@@ -112,7 +112,7 @@ export default function Footer() {
                   className="flex items-center gap-3 text-charcoal-300 hover:text-white transition-colors text-sm"
                 >
                   <Phone className="w-5 h-5 flex-shrink-0" />
-                  +65 8388 9596
+                  +65 9348 5255
                 </a>
               </li>
 
