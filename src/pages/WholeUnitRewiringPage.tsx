@@ -338,7 +338,13 @@ export default function WholeUnitRewiringPage() {
               </div>
             </div>
 
-
+            <div className="aspect-[4/3] rounded-2xl overflow-hidden shadow-soft-lg">
+              <img
+                src="https://images.pexels.com/photos/32497160/pexels-photo-32497160.jpeg"
+                alt="Electrical distribution box inspection"
+                className="w-full h-full object-cover"
+              />
+            </div>
           </div>
         </div>
       </section>
@@ -369,7 +375,13 @@ export default function WholeUnitRewiringPage() {
       <section className="section-padding bg-warm-50">
         <div className="container-custom">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
-
+            <div className="order-2 lg:order-1 aspect-[4/3] rounded-2xl overflow-hidden shadow-soft-lg">
+              <img
+                src="https://images.pexels.com/photos/3615735/pexels-photo-3615735.jpeg"
+                alt="Electrical wiring installation"
+                className="w-full h-full object-cover"
+              />
+            </div>
 
             <div className="order-1 lg:order-2">
               <h2 className="mb-4">Circuit Planning and Load Balancing</h2>

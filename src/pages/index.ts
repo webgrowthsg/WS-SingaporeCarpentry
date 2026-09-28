@@ -1,2 +1,11 @@
-export { default as Header } from './Header';
-export { default as Footer } from './Footer';
+export { default as Home } from './Home';
+export { default as AboutPage } from './AboutPage';
+export { default as ServicesPage } from './ServicesPage';
+export { default as KitchenCabinetPage } from './KitchenCabinetPage';
+export { default as BedroomWardrobePage } from './BedroomWardrobePage';
+export { default as TabletopPage } from './TabletopPage';
+export { default as WholeUnitRewiringPage } from './WholeUnitRewiringPage';
+export { default as ProjectsPage } from './ProjectsPage';
+export { default as AdvicePage } from './AdvicePage';
+export { default as FAQPage } from './FAQPage';
+export { default as ContactPage } from './ContactPage';

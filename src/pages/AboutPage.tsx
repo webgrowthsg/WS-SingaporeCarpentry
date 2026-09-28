@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import {
   Award,
   Users,
@@ -7,8 +6,6 @@ import {
   Shield,
   Heart,
   CheckCircle,
-  ArrowRight,
-  Phone,
 } from 'lucide-react';
 import { CTABanner } from '../components/UI';
 import SEO from '../components/SEO';

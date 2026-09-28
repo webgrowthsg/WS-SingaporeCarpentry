@@ -1,6 +1,5 @@
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
-import { ChevronDown, ChevronUp, ArrowRight, Phone } from 'lucide-react';
+import { ChevronDown, ChevronUp, Phone } from 'lucide-react';
 import { CTABanner } from '../components/UI';
 import SEO from '../components/SEO';
 

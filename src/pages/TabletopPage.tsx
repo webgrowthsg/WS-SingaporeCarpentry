@@ -210,7 +210,11 @@ export default function TabletopPage() {
       {/* Hero Section */}
       <section className="relative py-24 md:py-32 overflow-hidden">
         <div className="absolute inset-0">
-
+          <img
+            src="https://images.pexels.com/photos/6958147/pexels-photo-6958147.jpeg"
+            alt="Premium kitchen countertop Singapore"
+            className="w-full h-full object-cover"
+          />
           <div className="absolute inset-0 bg-gradient-to-r from-charcoal-900/90 via-charcoal-900/70 to-charcoal-900/50" />
         </div>
 
@@ -428,7 +432,11 @@ export default function TabletopPage() {
             </div>
 
             <div className="aspect-[4/3] rounded-2xl overflow-hidden shadow-soft-lg">
-
+              <img
+                src="https://images.pexels.com/photos/10855207/pexels-photo-10855207.jpeg"
+                alt="Quality countertop installation"
+                className="w-full h-full object-cover"
+              />
             </div>
           </div>
         </div>

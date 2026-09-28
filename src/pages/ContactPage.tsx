@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import { Phone, Mail, MapPin, MessageCircle, Clock, Send } from 'lucide-react';
+import { Phone, MapPin, MessageCircle, Send } from 'lucide-react';
 import SEO from '../components/SEO';
-import Breadcrumbs from '../components/UI/Breadcrumbs';
+import Breadcrumbs from '../components/Breadcrumbs';
 
 export default function ContactPage() {
   const [formData, setFormData] = useState({

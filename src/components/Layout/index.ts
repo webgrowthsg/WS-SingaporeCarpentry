@@ -1,2 +1,2 @@
-export { default as FloatingButtons } from './FloatingButtons';
-export { default as CTABanner } from './CTABanner';
+export { default as Header } from './Header';
+export { default as Footer } from './Footer';

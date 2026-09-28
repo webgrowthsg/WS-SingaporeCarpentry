@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Phone, Mail, MapPin, MessageCircle, Facebook, Instagram } from 'lucide-react';
+import { Phone, MapPin, MessageCircle, Facebook, Instagram } from 'lucide-react';
 
 const services = [
   { name: 'Kitchen Cabinet', path: '/services/kitchen-cabinets' },

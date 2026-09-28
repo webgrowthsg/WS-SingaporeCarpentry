@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Phone, X, CheckCircle } from 'lucide-react';
+import { Phone, X } from 'lucide-react';
 import { CTABanner } from '../components/UI';
 import SEO from '../components/SEO';
 

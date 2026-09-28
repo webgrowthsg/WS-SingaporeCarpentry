@@ -312,7 +312,13 @@ export default function BedroomWardrobePage() {
               </div>
             </div>
 
-           
+            <div className="aspect-[4/3] rounded-2xl overflow-hidden shadow-soft-lg">
+              <img
+                src="https://images.pexels.com/photos/6580395/pexels-photo-6580395.jpeg"
+                alt="Custom wardrobe interior with shelving"
+                className="w-full h-full object-cover"
+              />
+            </div>
           </div>
         </div>
       </section>

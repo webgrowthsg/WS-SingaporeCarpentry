@@ -54,8 +54,6 @@ const articles = [
   },
 ];
 
-const categories = ['All', 'Kitchen Cabinet', 'Wardrobe', 'Tabletop', 'Rewiring'];
-
 const featuredPost = {
   title: 'Complete Guide to Kitchen Cabinet Renovation in Singapore',
   excerpt: 'Everything you need to know about renovating your kitchen cabinets in Singapore. From planning and design to material selection and installation, this comprehensive guide covers all aspects of creating your dream kitchen.',

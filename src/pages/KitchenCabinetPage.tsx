@@ -368,7 +368,13 @@ export default function KitchenCabinetPage() {
               </div>
             </div>
 
-            
+            <div className="aspect-[4/3] rounded-2xl overflow-hidden shadow-soft-lg">
+              <img
+                src="https://images.pexels.com/photos/39829582/pexels-photo-39829582.jpeg"
+                alt="Modern kitchen for HDB and condo homes"
+                className="w-full h-full object-cover"
+              />
+            </div>
           </div>
         </div>
       </section>
