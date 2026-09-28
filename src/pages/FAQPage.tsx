@@ -260,7 +260,7 @@ export default function FAQPage() {
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4">
               <a
-                href="https://wa.me/6583889596?text=Hi,%20I%20found%20your%20website%20and%20would%20like%20a%20quotation%20for%20my%20renovation%20project."
+                href="https://wa.me/6593485255?text=Hi,%20I%20found%20your%20website%20and%20would%20like%20a%20quotation%20for%20my%20renovation%20project."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-primary"
