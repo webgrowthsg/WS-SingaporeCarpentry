@@ -22,6 +22,11 @@ export default function SEO({ title, description, path = '', image = defaultImag
       <meta property="og:description" content={description} />
       <meta property="og:image" content={image} />
       <meta property="og:url" content={canonicalUrl} />
+      <meta property="og:site_name" content="Singapore Carpentry" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:title" content={title} />
+      <meta name="twitter:description" content={description} />
+      <meta name="twitter:image" content={image} />
     </Helmet>
   );
 }

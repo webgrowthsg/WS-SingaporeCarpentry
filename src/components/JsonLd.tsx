@@ -35,7 +35,7 @@ const organizationInfo = {
   '@id': 'https://singaporecarpentry.com/#organization',
   name: 'Singapore Carpentry',
   url: 'https://singaporecarpentry.com',
-  logo: 'https://singaporecarpentry.com/vite.svg',
+  logo: 'https://singaporecarpentry.com/logo.svg',
   contactPoint: {
     '@type': 'ContactPoint',
     telephone: '+6593485255',
