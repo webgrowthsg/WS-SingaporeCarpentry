@@ -230,7 +230,7 @@ export default function ProjectsPage() {
 
               <div className="flex flex-col sm:flex-row gap-3">
                 <a
-                  href={`https://wa.me/6583889596?text=Hi%20Kevin,%20I%20saw%20your%20project%20"${selectedProject.title}"%20and%20I'm%20interested%20in%20a%20similar%20project.%20Can%20I%20get%20a%20quotation?`}
+                  href={`https://wa.me/6593485255?text=Hi%20Kevin,%20I%20saw%20your%20project%20"${selectedProject.title}"%20and%20I'm%20interested%20in%20a%20similar%20project.%20Can%20I%20get%20a%20quotation?`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn-primary"
