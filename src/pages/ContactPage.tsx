@@ -86,7 +86,7 @@ export default function ContactPage() {
                     <h3 className="font-semibold text-charcoal-800 group-hover:text-[#25D366] transition-colors">
                       WhatsApp Us
                     </h3>
-                    <p className="text-charcoal-600 text-sm">+65 8388 9596</p>
+                    <p className="text-charcoal-600 text-sm">+65 9348 5255</p>
                   </div>
                 </a>
 
@@ -103,7 +103,7 @@ export default function ContactPage() {
                     <h3 className="font-semibold text-charcoal-800 group-hover:text-brand-primary transition-colors">
                       Call Us
                     </h3>
-                    <p className="text-charcoal-600 text-sm">+65 8388 9596</p>
+                    <p className="text-charcoal-600 text-sm">+65 9348 5255</p>
                   </div>
                 </a>
 
