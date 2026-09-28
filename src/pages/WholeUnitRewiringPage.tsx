@@ -199,7 +199,7 @@ export default function WholeUnitRewiringPage() {
             src="https://images.pexels.com/photos/5691590/pexels-photo-5691590.jpeg"
             alt="Electrical rewiring Singapore HDB"
             className="w-full h-full object-cover"
-          />
+           loading='lazy' />
           <div className="absolute inset-0 bg-gradient-to-r from-charcoal-900/90 via-charcoal-900/70 to-charcoal-900/50" />
         </div>
 
@@ -343,7 +343,7 @@ export default function WholeUnitRewiringPage() {
                 src="https://images.pexels.com/photos/32497160/pexels-photo-32497160.jpeg"
                 alt="Electrical distribution box inspection"
                 className="w-full h-full object-cover"
-              />
+               loading='lazy' />
             </div>
           </div>
         </div>
@@ -380,7 +380,7 @@ export default function WholeUnitRewiringPage() {
                 src="https://images.pexels.com/photos/3615735/pexels-photo-3615735.jpeg"
                 alt="Electrical wiring installation"
                 className="w-full h-full object-cover"
-              />
+               loading='lazy' />
             </div>
 
             <div className="order-1 lg:order-2">

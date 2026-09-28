@@ -91,7 +91,7 @@ export default function ServicesPage() {
             src="https://images.pexels.com/photos/8146322/pexels-photo-8146322.jpeg"
             alt="Carpentry services Singapore"
             className="w-full h-full object-cover"
-          />
+           loading='lazy' />
           <div className="absolute inset-0 bg-gradient-to-r from-charcoal-900/90 via-charcoal-900/70 to-charcoal-900/50" />
         </div>
 
@@ -118,7 +118,7 @@ export default function ServicesPage() {
                     src={service.image}
                     alt={service.title}
                     className="w-full h-full object-cover"
-                  />
+                   loading='lazy' />
                 </div>
                 <div className="p-8">
                   <h2 className="text-2xl font-semibold mb-3">{service.title}</h2>

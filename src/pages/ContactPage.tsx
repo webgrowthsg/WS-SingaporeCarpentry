@@ -44,7 +44,7 @@ export default function ContactPage() {
             src="https://images.pexels.com/photos/30535632/pexels-photo-30535632.jpeg"
             alt="Contact Singapore Carpentry"
             className="w-full h-full object-cover"
-          />
+           loading='lazy' />
           <div className="absolute inset-0 bg-gradient-to-r from-charcoal-900/90 via-charcoal-900/70 to-charcoal-900/50" />
         </div>
 

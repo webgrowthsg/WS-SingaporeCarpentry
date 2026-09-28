@@ -112,7 +112,7 @@ export default function ProjectsPage() {
             src="https://images.pexels.com/photos/8146322/pexels-photo-8146322.jpeg"
             alt="Our Singapore carpentry projects"
             className="w-full h-full object-cover"
-          />
+           loading='lazy' />
           <div className="absolute inset-0 bg-gradient-to-r from-charcoal-900/90 via-charcoal-900/70 to-charcoal-900/50" />
         </div>
 
@@ -163,7 +163,7 @@ export default function ProjectsPage() {
                     src={project.image}
                     alt={project.title}
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-                  />
+                   loading='lazy' />
                 </div>
                 <div className="p-6">
                   <div className="flex flex-wrap gap-2 mb-3">
@@ -200,7 +200,7 @@ export default function ProjectsPage() {
                 src={selectedProject.image}
                 alt={selectedProject.title}
                 className="w-full aspect-video object-cover"
-              />
+               loading='lazy' />
               <button
                 onClick={() => setSelectedProject(null)}
                 className="absolute top-4 right-4 w-10 h-10 bg-white rounded-full flex items-center justify-center shadow-lg hover:bg-charcoal-100 transition-colors"

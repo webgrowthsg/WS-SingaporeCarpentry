@@ -189,7 +189,7 @@ export default function FAQPage() {
             src="https://images.pexels.com/photos/7509782/pexels-photo-7509782.jpeg"
             alt="Frequently asked questions Singapore carpentry"
             className="w-full h-full object-cover"
-          />
+           loading='lazy' />
           <div className="absolute inset-0 bg-gradient-to-r from-charcoal-900/90 via-charcoal-900/70 to-charcoal-900/50" />
         </div>
 

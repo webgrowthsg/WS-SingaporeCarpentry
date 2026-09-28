@@ -202,7 +202,7 @@ export default function BedroomWardrobePage() {
             src="https://images.pexels.com/photos/16849894/pexels-photo-16849894.jpeg"
             alt="HDB bedroom wardrobe Singapore"
             className="w-full h-full object-cover"
-          />
+           loading='lazy' />
           <div className="absolute inset-0 bg-gradient-to-r from-charcoal-900/90 via-charcoal-900/70 to-charcoal-900/50" />
         </div>
 
@@ -279,7 +279,7 @@ export default function BedroomWardrobePage() {
                     src={type.image}
                     alt={type.title}
                     className="w-full h-full object-cover"
-                  />
+                   loading='lazy' />
                 </div>
                 <div className="p-6">
                   <h3 className="text-lg font-semibold mb-2">{type.title}</h3>
@@ -317,7 +317,7 @@ export default function BedroomWardrobePage() {
                 src="https://images.pexels.com/photos/6580395/pexels-photo-6580395.jpeg"
                 alt="Custom wardrobe interior with shelving"
                 className="w-full h-full object-cover"
-              />
+               loading='lazy' />
             </div>
           </div>
         </div>
@@ -379,7 +379,7 @@ export default function BedroomWardrobePage() {
                 src="https://images.pexels.com/photos/17495860/pexels-photo-17495860.jpeg"
                 alt="Small HDB bedroom wardrobe Singapore"
                 className="w-full h-full object-cover"
-              />
+               loading='lazy' />
             </div>
           </div>
         </div>
@@ -394,7 +394,7 @@ export default function BedroomWardrobePage() {
                 src="https://images.pexels.com/photos/15522918/pexels-photo-15522918.jpeg"
                 alt="Custom wardrobe benefits"
                 className="w-full h-full object-cover"
-              />
+               loading='lazy' />
             </div>
 
             <div>

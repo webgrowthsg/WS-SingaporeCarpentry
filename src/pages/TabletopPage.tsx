@@ -214,7 +214,7 @@ export default function TabletopPage() {
             src="https://images.pexels.com/photos/6958147/pexels-photo-6958147.jpeg"
             alt="Premium kitchen countertop Singapore"
             className="w-full h-full object-cover"
-          />
+           loading='lazy' />
           <div className="absolute inset-0 bg-gradient-to-r from-charcoal-900/90 via-charcoal-900/70 to-charcoal-900/50" />
         </div>
 
@@ -293,7 +293,7 @@ export default function TabletopPage() {
                       src={material.image}
                       alt={material.name}
                       className="w-full h-full object-cover"
-                    />
+                     loading='lazy' />
                   </div>
                   <div className="lg:col-span-2 p-8">
                     <h3 className="text-2xl font-semibold mb-4">{material.name}</h3>
@@ -436,7 +436,7 @@ export default function TabletopPage() {
                 src="https://images.pexels.com/photos/10855207/pexels-photo-10855207.jpeg"
                 alt="Quality countertop installation"
                 className="w-full h-full object-cover"
-              />
+               loading='lazy' />
             </div>
           </div>
         </div>

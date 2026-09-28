@@ -77,7 +77,7 @@ export default function AdvicePage() {
             src="https://images.pexels.com/photos/7489135/pexels-photo-7489135.jpeg"
             alt="Singapore home renovation advice"
             className="w-full h-full object-cover"
-          />
+           loading='lazy' />
           <div className="absolute inset-0 bg-gradient-to-r from-charcoal-900/90 via-charcoal-900/70 to-charcoal-900/50" />
         </div>
 
@@ -109,7 +109,7 @@ export default function AdvicePage() {
                   src={featuredPost.image}
                   alt={featuredPost.title}
                   className="w-full h-full object-cover"
-                />
+                 loading='lazy' />
               </div>
               <div className="p-8 lg:p-12 flex flex-col justify-center">
                 <span className="inline-block px-3 py-1 bg-brand-primary/10 text-brand-primary text-sm font-medium rounded-full mb-4">
@@ -151,7 +151,7 @@ export default function AdvicePage() {
                     src={article.image}
                     alt={article.title}
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-                  />
+                   loading='lazy' />
                 </div>
                 <div className="p-6">
                   <div className="flex items-center gap-3 mb-3">

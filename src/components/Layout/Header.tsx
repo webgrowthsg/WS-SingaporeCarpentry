@@ -57,10 +57,10 @@ export default function Header() {
               <span className="text-white font-display font-bold text-xl">S</span>
             </div>
             <div className="flex flex-col">
-              <span className={`font-display font-semibold text-lg leading-tight ${isScrolled ? 'text-charcoal-800' : 'text-charcoal-800'}`}>
+              <span className={`font-display font-semibold text-lg leading-tight ${isScrolled ? 'text-charcoal-800' : 'text-white'}`}>
                 Singapore Carpentry
               </span>
-              <span className={`text-xs ${isScrolled ? 'text-charcoal-500' : 'text-charcoal-600'}`}>
+              <span className={`text-xs ${isScrolled ? 'text-charcoal-500' : 'text-white/80'}`}>
                 Singapore Specialist
               </span>
             </div>
@@ -82,7 +82,7 @@ export default function Header() {
                       ? 'text-brand-primary bg-brand-primary/5'
                       : isScrolled
                       ? 'text-charcoal-700 hover:text-brand-primary hover:bg-charcoal-50'
-                      : 'text-charcoal-700 hover:text-brand-primary'
+                      : 'text-white hover:text-brand-accent'
                   }`}
                 >
                   {link.name}
@@ -121,6 +121,8 @@ export default function Header() {
           <button
             onClick={() => setIsOpen(!isOpen)}
             className="lg:hidden p-2 rounded-lg text-charcoal-700 hover:bg-charcoal-100 transition-colors"
+            aria-label={isOpen ? 'Close menu' : 'Open menu'}
+            aria-expanded={isOpen}
           >
             {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
           </button>

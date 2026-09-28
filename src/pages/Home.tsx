@@ -210,6 +210,9 @@ export default function Home() {
             src="https://images.pexels.com/photos/8146322/pexels-photo-8146322.jpeg"
             alt="Modern Singapore HDB kitchen"
             className="w-full h-full object-cover"
+            width={1920}
+            height={1080}
+            fetchPriority="high"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-charcoal-900/90 via-charcoal-900/70 to-transparent" />
         </div>
@@ -288,6 +291,9 @@ export default function Home() {
                       src={service.image}
                       alt={service.title}
                       className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                      loading="lazy"
+                      width={400}
+                      height={300}
                     />
                   </div>
                   <div className="p-6">
@@ -375,6 +381,9 @@ export default function Home() {
                     src={project.image}
                     alt={project.title}
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                    loading="lazy"
+                    width={600}
+                    height={338}
                   />
                 </div>
                 <div className="p-6">
@@ -525,6 +534,9 @@ export default function Home() {
             src="https://images.pexels.com/photos/7535013/pexels-photo-7535013.jpeg"
             alt="Singapore condo bedroom"
             className="w-full h-full object-cover"
+            loading="lazy"
+            width={1920}
+            height={800}
           />
           <div className="absolute inset-0 bg-charcoal-900/80" />
         </div>

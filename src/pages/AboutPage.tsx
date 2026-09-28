@@ -59,7 +59,7 @@ export default function AboutPage() {
             src="https://images.pexels.com/photos/834892/pexels-photo-834892.jpeg"
             alt="Singapore carpentry workshop"
             className="w-full h-full object-cover"
-          />
+           loading='lazy' />
           <div className="absolute inset-0 bg-gradient-to-r from-charcoal-900/90 via-charcoal-900/70 to-charcoal-900/50" />
         </div>
 
@@ -108,28 +108,28 @@ export default function AboutPage() {
                   src="https://images.pexels.com/photos/19345424/pexels-photo-19345424.jpeg"
                   alt="HDB kitchen cabinet Singapore"
                   className="w-full h-full object-cover"
-                />
+                 loading='lazy' />
               </div>
               <div className="aspect-[3/4] rounded-2xl overflow-hidden mt-8">
                 <img
                   src="https://images.pexels.com/photos/20653852/pexels-photo-20653852.jpeg"
                   alt="Condo bedroom wardrobe Singapore"
                   className="w-full h-full object-cover"
-                />
+                 loading='lazy' />
               </div>
               <div className="aspect-[3/4] rounded-2xl overflow-hidden">
                 <img
                   src="https://images.pexels.com/photos/5691590/pexels-photo-5691590.jpeg"
                   alt="Singapore electrical work"
                   className="w-full h-full object-cover"
-                />
+                 loading='lazy' />
               </div>
               <div className="aspect-[3/4] rounded-2xl overflow-hidden mt-8">
                 <img
                   src="https://images.pexels.com/photos/27390284/pexels-photo-27390284.jpeg"
                   alt="Singapore carpentry details"
                   className="w-full h-full object-cover"
-                />
+                 loading='lazy' />
               </div>
             </div>
           </div>
@@ -186,7 +186,7 @@ export default function AboutPage() {
                   src="https://images.pexels.com/photos/10153052/pexels-photo-10153052.jpeg"
                   alt="Singapore carpentry team"
                   className="w-full h-full object-cover"
-                />
+                 loading='lazy' />
               </div>
             </div>
 

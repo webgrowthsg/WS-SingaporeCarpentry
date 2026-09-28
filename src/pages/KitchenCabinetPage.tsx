@@ -174,7 +174,7 @@ export default function KitchenCabinetPage() {
             src="https://images.pexels.com/photos/15062084/pexels-photo-15062084.jpeg"
             alt="Custom kitchen cabinet Singapore HDB"
             className="w-full h-full object-cover"
-          />
+           loading='lazy' />
           <div className="absolute inset-0 bg-gradient-to-r from-charcoal-900/90 via-charcoal-900/70 to-charcoal-900/50" />
         </div>
 
@@ -251,7 +251,7 @@ export default function KitchenCabinetPage() {
                     src={type.image}
                     alt={type.title}
                     className="w-full h-full object-cover"
-                  />
+                   loading='lazy' />
                 </div>
                 <div className="p-6">
                   <h3 className="text-lg font-semibold mb-2">{type.title}</h3>
@@ -373,7 +373,7 @@ export default function KitchenCabinetPage() {
                 src="https://images.pexels.com/photos/39829582/pexels-photo-39829582.jpeg"
                 alt="Modern kitchen for HDB and condo homes"
                 className="w-full h-full object-cover"
-              />
+               loading='lazy' />
             </div>
           </div>
         </div>
@@ -400,7 +400,7 @@ export default function KitchenCabinetPage() {
                 src="https://images.pexels.com/photos/36777910/pexels-photo-36777910.jpeg"
                 alt="Custom kitchen cabinet benefits"
                 className="w-full h-full object-cover"
-              />
+               loading='lazy' />
             </div>
           </div>
         </div>
