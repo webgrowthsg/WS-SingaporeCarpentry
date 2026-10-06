@@ -211,7 +211,7 @@ export default function KitchenCabinetPage() {
       <section className="section-padding bg-white">
         <div className="container-custom">
           <div className="max-w-3xl">
-            <h2 className="mb-6">Custom Kitchen Cabinet Design in Singapore</h2>
+            <h2 className="mb-6">Custom Kitchen Cabinet Carpentry for Singapore Homes</h2>
             <div className="space-y-4 text-charcoal-600 text-lg">
               <p>
                 The kitchen is the heart of every Singapore home. Whether you are renovating an HDB flat,
@@ -429,6 +429,32 @@ export default function KitchenCabinetPage() {
                 </div>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Search-led renovation and replacement intent */}
+      <section className="section-padding bg-warm-50">
+        <div className="container-custom">
+          <div className="grid lg:grid-cols-2 gap-12">
+            <div>
+              <h2 className="mb-4">Kitchen Cabinet Renovation and Replacement</h2>
+              <p className="text-charcoal-600 text-lg mb-4">
+                Kitchen cabinet renovation may involve replacing old cabinets completely when the carcasses, doors, storage layout or finishes no longer meet your needs. We can assess the existing kitchen, plan removal and replacement, and design new cabinetry around the available space and appliances.
+              </p>
+              <p className="text-charcoal-600">
+                For homeowners comparing kitchen cabinet remodelers or a kitchen cabinet replacement in Singapore, the right scope depends on the condition of the existing cabinets, desired layout changes, storage requirements and chosen finishes.
+              </p>
+            </div>
+            <div>
+              <h2 className="mb-4">HDB Kitchen Cabinet Carpentry</h2>
+              <p className="text-charcoal-600 text-lg mb-4">
+                An HDB kitchen cabinet needs to make efficient use of a compact footprint while accommodating appliances, plumbing points and everyday storage. Custom kitchen cabinet carpentry allows upper, lower and tall units to be planned around the actual dimensions instead of relying on standard-size modules.
+              </p>
+              <p className="text-charcoal-600">
+                If your renovation also includes a new worktop, compare our <a href="/services/tabletop" className="text-brand-primary font-medium hover:underline">countertop and tabletop options</a>.
+              </p>
+            </div>
           </div>
         </div>
       </section>
