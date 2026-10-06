@@ -196,8 +196,8 @@ export default function TabletopPage() {
   return (
     <main className="pt-20">
       <SEO
-        title="Tabletop & Countertop Services | Singapore Carpentry"
-        description="Premium countertops in quartz, solid surface, sintered stone, and laminate. Durable, beautiful surfaces for kitchens and bathrooms with seamless joins and waterfall edge designs."
+        title="Countertop & Tabletop Singapore | Quartz, Laminate & Solid Surface"
+        description="Kitchen countertops and tabletops in Singapore, including quartz, laminate, solid surface and sintered stone. Compare materials and request a quotation."
         path="/services/tabletop"
       />
       <ServiceJsonLd
@@ -268,6 +268,32 @@ export default function TabletopPage() {
                 Every installation includes precise templating, professional fabrication, and expert
                 fitting. Whether you are renovating an HDB flat, upgrading a condo kitchen, or
                 fitting out a landed home, we deliver quality work.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Search-led laminate and replacement intent */}
+      <section className="section-padding bg-white">
+        <div className="container-custom">
+          <div className="grid lg:grid-cols-2 gap-12">
+            <div>
+              <h2 className="mb-4">Laminate Countertops Singapore</h2>
+              <p className="text-charcoal-600 text-lg mb-4">
+                Laminate countertops are a practical option for Singapore kitchens where budget, colour choice and straightforward maintenance matter. A laminate surface is bonded to a supporting substrate, giving homeowners a wide range of finishes without the cost of stone.
+              </p>
+              <p className="text-charcoal-600">
+                They work especially well for budget-conscious HDB renovations and light-to-moderate kitchen use. Care is needed around prolonged water exposure, hot cookware, joints and edges, so the substrate, detailing and installation quality are important when deciding whether laminate is right for your kitchen.
+              </p>
+            </div>
+            <div>
+              <h2 className="mb-4">Kitchen Countertop Replacement</h2>
+              <p className="text-charcoal-600 text-lg mb-4">
+                If an existing worktop is worn, damaged or no longer suits a renovation, we can assess a kitchen countertop replacement together with the existing cabinets, sink, hob and wall finishes. Replacement suitability depends on the condition and dimensions of the supporting cabinetry.
+              </p>
+              <p className="text-charcoal-600">
+                As a countertop contractor, we can help compare laminate, quartz, solid surface and sintered stone for the replacement. For projects that also need new cabinetry, see our <a href="/services/kitchen-cabinets" className="text-brand-primary font-medium hover:underline">kitchen cabinet carpentry</a>.
               </p>
             </div>
           </div>
