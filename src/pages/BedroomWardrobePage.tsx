@@ -239,7 +239,7 @@ export default function BedroomWardrobePage() {
       <section className="section-padding bg-white">
         <div className="container-custom">
           <div className="max-w-3xl">
-            <h2 className="mb-6">Custom Wardrobes for Singapore Homes</h2>
+            <h2 className="mb-6">Custom Wardrobe Carpentry Singapore</h2>
             <div className="space-y-4 text-charcoal-600 text-lg">
               <p>
                 Every homeowner deserves a bedroom with organised, accessible storage.
@@ -408,6 +408,21 @@ export default function BedroomWardrobePage() {
                 ))}
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Search-led built-in wardrobe intent */}
+      <section className="section-padding bg-warm-50">
+        <div className="container-custom">
+          <div className="max-w-4xl">
+            <h2 className="mb-4">Built-In and Customised Wardrobes for Singapore Homes</h2>
+            <p className="text-charcoal-600 text-lg mb-4">
+              A built-in wardrobe is made to the available wall and ceiling dimensions, helping HDB and condo bedrooms use space more efficiently. Customised wardrobe carpentry also lets you choose the internal arrangement instead of adapting your storage to a standard freestanding unit.
+            </p>
+            <p className="text-charcoal-600">
+              Door style, wardrobe width and height, drawers, hanging zones, shelving and finishes all affect the final design and quotation. For a custom made wardrobe, we recommend planning around what you need to store and the usable clearance in the room rather than selecting on appearance alone.
+            </p>
           </div>
         </div>
       </section>
